@@ -1,0 +1,4 @@
+train: /Users/amarnathshastry/Documents/Gullu-labworks/ai-emission-detection/smoke_dataset/images/train
+val: /Users/amarnathshastry/Documents/Gullu-labworks/ai-emission-detection/smoke_dataset/images/val
+nc: 1
+names: ['smoke']

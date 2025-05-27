@@ -1,0 +1,63 @@
+# === Node.js / React (frontend and backend) ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.env
+.env.*   # For multiple environment files
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+*.out
+*.tmp
+pip-log.txt
+htmlcov/
+.cache/
+coverage/
+.pytest_cache/
+*.sqlite3
+
+# === Virtual environments ===
+venv/
+.venv/
+env/
+.env/
+
+# === VSCode/IDE-specific ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === System files ===
+.DS_Store
+Thumbs.db
+
+# === YOLO / CV Models ===
+*.pt         # YOLO model weights
+*.h5
+*.tflite
+*.onnx
+runs/        # Ultralytics output folder
+inference/
+output/
+
+# === Misc ===
+*.zip
+*.tar.gz
+*.bak
+*.old
+
+# === React build artifacts ===
+frontend/public/build/
+frontend/public/static/

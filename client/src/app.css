@@ -1,0 +1,141 @@
+/* Full-page gradient background */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  min-height: 100vh;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 3rem 1rem;
+  background-attachment: fixed;
+}
+
+/* Frosted glass container */
+.app-wrapper {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-align: center;
+}
+
+/* File input */
+input[type='file'] {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 0.6rem 1.2rem;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type='file']:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: #fff;
+}
+
+/* Title banner */
+.banner {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Image layout */
+.image-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.image-wrapper {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 1.2rem;
+  max-width: 450px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.image-wrapper:hover {
+  transform: scale(1.02);
+}
+
+.image-wrapper img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+/* Percentage display */
+.percentage-display {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #ffdddd;
+  background-color: rgba(255, 0, 0, 0.3);
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+/* Logs section */
+.log-table {
+  overflow-x: auto;
+  margin-top: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+
+.log-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  color: #fff;
+}
+
+.log-table th,
+.log-table td {
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: left;
+}
+
+.log-table th {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Clear logs button */
+button.clear-logs {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+button.clear-logs:hover {
+  background-color: #cc0000;
+}
